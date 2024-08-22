@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test name="Add Advocate Test">
+        <classes>
+            <class name="POM.testaddadvocate"/>
+        </classes>
+    </test>
+    <test name="Approval Process Test">
+        <classes>
+            <class name="POM.TestApprovalProcess"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

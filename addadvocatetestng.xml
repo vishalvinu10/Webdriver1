@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Addadvocatetestng">
+        <parameter name="username" value="BU" />
+        <parameter name="advocateName" value="vishal" />
+        <parameter name="dateOfBirth" value="01-07-1906" />
+        <parameter name="qualification" value="LLB" />
+        <parameter name="dateOfEnrollment" value="02-07-2024" />
+        <parameter name="totalExperience" value="1" />
+        <parameter name="months" value="3" />
+        <parameter name="practiceArea" value="Criminal" />
+        <parameter name="incomeTax" value="Yes" />
+        <parameter name="category" value="GENERAL" />
+        <parameter name="exEmployee" value="safe" />
+        <parameter name="empanelledWith" value="xyz" />
+        <parameter name="residentialAddress" value="palakkad" />
+        <parameter name="mobileNumber" value="7865432143" />
+        <parameter name="emailId" value="vishal44@gmail.com" />
+        <parameter name="docType" value="picture" />
+        <parameter name="docDesc" value="picture" />
+        <parameter name="filePath" value="C:\\Users\\mvish\\OneDrive\\Desktop\\SAFE\\field alignment issue.jpg" />
+        <parameter name="eligibilityConfirm" value="confirmed" />
+        <parameter name="advocateGround" value="recommended" />
+        <classes>
+            <class name="pkg.Addadvocatetestng" />
+        </classes>
+    </test>
+</suite>
